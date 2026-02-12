@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+
+body {
+  background: linear-gradient(135deg, #4c6ef5, #b197fc);
+  color: white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/* form{
+    margin-left:600px;
+} */
+
+.time{
+   font-size :40px;
+   color: black;
+   margin-top: 50px;
+   padding: 20px;
+
+
+}
+
+#timer {
+      font-size: 40px;
+      font-weight: bold;
+      color: black;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      text-shadow: #2575fc;
+
+    }
+
+    .para{
+        font-size: 40px; color:white;  padding: 20px; margin-left: 20px;
+    }
+
+form input{
+
+    margin: 20px;
+    
+
+}
+
+form label{
+    font-size: 19px;
+}
+
+form label:hover{
+   background-color: #0056b3; /* Darker blue on hover */
+      transform: scale(1.05);    /* Slight zoom effect */
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+}
+
+
+
+h1{
+    margin-left: 20px;
+}
+#name{
+    padding: 15px;
+    margin: 20px;
+    border: inset;
+    border-radius: 5px;
+    width: 300px;
+    border-color: rgba(0, 0, 0, 0.50);
+    font-size: medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 150px;
+    color: black;
+}
+
+button{
+
+    margin: 30px;
+    padding: 15px;
+    width: 150px ;
+    border-style:inset ;
+    border-radius: 5px;
+    
+}
+
+/* certificates style */
+.outer-border{
+    width:700px; height:550px; padding:20px; text-align:center; border: 10px solid #673AB7;    margin-left: 21%;   background-color: beige; border-radius: 10px;
+}
+
+.inner-dotted-border{
+    width:650px; height:500px; padding:20px; text-align:center; border: 5px solid #673AB7;border-style: dotted; padding-bottom: 50px;
+}
+
+.certification{
+    font-size:40px; font-weight:bold;    color: #663ab7;  margin-top: 200px; padding-top: 80px;
+}
+
+.certify{
+    font-size:30px;
+    color: black;
+    padding-top: 20px;
+}
+
+.name{
+    font-size:30px;    color:#663ab7 ;
+}
+
+.fs-30{
+    font-size:30px;
+}
+
+.fs-20{
+    font-size:20px;
+}
+
+#display{
+    margin-right:900px;
+}
+
+
+
+
+@media screen  and (max-width:800px) {
+   
+    #name{
+        margin-left: 80px;
+
+    }
+    button{
+
+        margin-left: 180px;
+     }
+
+     .outer-border{
+    width:500px; height:350px; padding:20px; text-align:center; border: 10px solid #673AB7;    margin-left: 21%;   background-color: beige; border-radius: 10px;
+}
+
+    .inner-dotted-border{
+    width:450px; height:300px; padding:20px; text-align:center; border: 5px solid #673AB7;border-style: dotted;
+}
+.certification{
+    font-size:20px; font-weight:bold;    color: #663ab7;  margin-top: 200px;
+}
+
+.certify{
+    font-size:25px;
+}
+
+.name{
+    font-size:30px;    color: green; font-size: larger;
+
+}
+
+.fs-20{
+    font-size:30px;
+}
+
+.fs-20{
+    font-size:20px;
+}
+
+#display{
+    margin-right:900px;
+}
+
+.time{
+   font-size :25px;
+   color: black;
+   margin-top: 20px;
+   padding: 10px;
+
+}
+
+.para{
+    font-size: 20px; color:white;  padding:
+     10px; margin-left: 20px;
+}
+
+h1{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.outer-border{
+    width:425px; height:410px; padding:20px; text-align:center; border: 10px solid #673AB7;    margin-left: 21%;   background-color: beige; border-radius: 10px;
+}
+
+.inner-dotted-border{
+    width:375px; height: 360px; padding:20px; text-align:center; border: 5px solid #673AB7;border-style: dotted;
+}
+
+.certification{
+    font-size:25px; font-weight:bold;    color: #663ab7;  margin-top: 200px; margin-top: -60px;
+}
+
+.certify{
+    font-size:15px;
+    color: black;
+
+}
+
+.fs-30{
+    font-size:18px;
+}
+
+.fs-20{
+    font-size:15px;
+}
+
+#display{
+    margin-right:900px;
+}
+
+
+}

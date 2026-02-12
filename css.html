@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS MCQ</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+       <h1 class="time"><b>Timer with Alert at 2 Minutes</b></h1>
+<p class="para" ><b>Time elapsed: <span id="timer">0</span> seconds</b></p>
+
+
+     <div id="hide">
+
+     <input type="text" placeholder="Enter your name in capital" id="name"   required>
+
+
+    <form action="">
+
+
+        <div id="one">
+    <h1>1.What is CSS? </h1>
+    <input type="radio"  name="answer"><label for=""> CSS is a style sheet language</label> <br>
+    <input type="radio" name="answer"><label for=""> CSS is designed to separate the presentation and content, including layout, colors, and fonts</label>   <br>
+    <input type="radio" name="answer"> <label for="">CSS is the language used to style the HTML documents</label>    <br>
+    <input type="radio" id="a" name="answer"><label for=""> All of the mentioned</label>   <br>
+</div>
+   <div id="two">
+    <h1>2.Which of the following tag is used to embed css in html page?</h1>
+    <input type="radio"  name="answer1"> <label for=""> css </label> <br>
+    <input type="radio"  name="answer1"> <label foor=""> script</label> <br>
+    <input type="radio" id="b" name="answer1"> <label for=""> style</label> <br>
+     <input type="radio"  name="answer1"> <label for="">style</label> <br>
+    </div>
+
+    <div id="three">
+    <h1>3.Which of the following CSS selectors are used to specify a group of elements?</h1>
+    <input type="radio"  name="answer2"> <label for=""> tag</label> <br>
+    <input type="radio"  name="answer2"><label for=""> id</label> <br>
+    <input type="radio" id="c" name="answer2"><label for="">class </label>  <br>
+    <input type="radio"  name="answer2"><label for=""> both class and tag</label> <br>
+    </div>
+        <div id="four">
+    <h1>4.Which of the following CSS framework is used to create a responsive design?</h1>
+    <input type="radio"   name="answer3"><label for="">django</label>   <br>
+    <input type="radio"   name="answer3"> <label for=""> rails</label> <br>
+    <input type="radio"   name="answer3"> <label for="">larawell</label>  <br>
+    <input type="radio" id="d" name="answer3"> <label for=""> bootstrap</label> <br>
+    </div>
+        <div id="five">
+    <h1>5.Which of the following CSS selector is used to specify a rule to bind a particular unique element?</h1>
+    <input type="radio" name="answer4"> <label for="">tag</label>  <br>
+    <input type="radio" id="e" name="answer4"> <label for="">id</label>  <br>
+    <input type="radio" name="answer4">  <label for="">class</label> <br>
+    <input type="radio"   name="answer4"><label for="">None of above</label>  <br>
+        </div>
+        <div id="six">
+    <h1>6.Which of the following are the CSS Extension Prefixes for Webkit?</h1>
+    <input type="radio" name="answer5"> <label for="">-chrome</label> <br>
+    <input type="radio"  name="answer5"> <label for="">-web</label> <br>
+    <input type="radio" name="answer5"> <label for="">-o-</label> <br>
+    <input type="radio" id="f" name="answer5"> <label for="">-webkit</label> <br>
+    </div>
+        <div id="seven">
+    <h1>7. Which of the following CSS property can be used to set the image as a border instead of the border style?</h1>
+    <input type="radio" id="g" name="answer6"> <label for=""> background-image-source </label><br>
+    <input type="radio"  name="answer6"> <label for="">background-image</label>  <br>
+    <input type="radio" name="answer6"> <label for="">border-im</label>  <br>
+    <input type="radio" name="answer6"><label for="">border</label>  <br>
+    </div>
+        <div id="eight">
+    <h1>8.Which of the following CSS property defines the different properties of all four sides of an element’s border in a single declaration?</h1>
+    <input type="radio" name="answer7"><label for="">border-collapse</label>   <br>
+    <input type="radio" id="h" name="answer7"><label for="">border-width</label>  <br>
+    <input type="radio"  name="answer7"><label for="">padding</label>  <br>
+    <input type="radio" name="answer7"><label for="">border</label>  <br>
+    </div> 
+        <div id="nine">
+    <h1>9. Which of the following CSS property sets the font size of text?</h1>
+    <input type="radio" id="i" name="answer8"> <label for=""></label> font-size      <br>
+    <input type="radio"name="answer8"><label for="">text-size</label>  <br>
+    <input type="radio"name="answer8"><label for=""> text</label> <br>
+    <input type="radio"name="answer8"> <label for="">size </label><br>
+    </div>
+       <div id="ten">
+    <h1>10.Which of the following is not the property of the CSS box model?</h1>
+    <input type="radio" name="answer9"><label for=""> margin</label> <br>  
+    <input type="radio"  id="j" name="answer9"> <label for="">color</label> <br>
+    <input type="radio" name="answer9"><label for=""> width</label> <br>
+    <input type="radio"  name="answer9"> <label for="">height</label> <br>
+    </div>
+ </form>
+
+    <button onclick="work()">submit</button>
+
+    </div>
+
+    <div id="display" style="display:none;">
+    <div class="outer-border" >
+<div class="inner-dotted-border">
+       <span class="certification">Certificate of Completion</span>
+       <br><br>
+       <span class="certify"><i>This is to certify that</i></span>
+       <br><br>
+       <span class="name" id="certifyName"><b></b></span><br/><br/>
+       
+       <span class="certify"><i>has successfully completed the certification</i></span> <br/><br/>
+       <span class="fs-30" style=" color:#663ab7 ;">CSS Developer</span> <br/><br/>
+       
+    <span style=" color:black; font-family:Arial, Helvetica, sans-serif " class="fs-20">with score of </span> <br/><br/>
+    <h1 style="color: #0056b3" id="score"></h1><br>
+    <span class="certify" style="color: black;"><i>dated</i></span><br><br><br>
+      
+      <span class="fs-20" id="dateDisplay" style="color:black"></span>
+
+</div>
+</div>
+
+</div>
+
+
+<button id="vj" style="display:none" onclick="want()">print</button>
+
+     <script src="css.js"></script>
+   
+</body>
+</html>
+   

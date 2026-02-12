@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML MCQ</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="html.css">
+
+</head>
+<body>
+  <!-- <div>Time Remaining: <span id="timer">04:00</span></div> -->
+   <h1 class="time"><b>Timer with Alert at 2 Minutes</b></h1>
+<p class="para" ><b>Time elapsed: <span id="timer">0</span> seconds</b></p>
+
+    <div id="hide">
+        <input type="text" placeholder="Enter your name in capital" id="name"   required>
+
+
+    <form action="">
+
+
+        <div id="one">
+    <h1>  1.what is html? </h1>
+    <input type="radio" id="a" name="answer"><label>hypertext markup language </label><br>
+    <input type="radio" name="answer"><label>hypertext mockup language  </label><br>
+    <input type="radio" name="answer"><label>hypertext markoff language  </label><br>
+    <input type="radio" name="answer"><label>hypertext markapp language  </label><br>
+</div>
+   <div id="two">
+    <h1>2.HTML is used to create</h1>
+    <input type="radio"  name="answer1"><label>Web server  </label><br>
+    <input type="radio"  name="answer1"><label>Word document  </label><br>
+    <input type="radio" id="b" name="answer1"><label>Web page  </label><br>
+    <input type="radio"  name="answer1"><label>Database  </label> <br>
+    </div>
+         <div id="three">
+    <h1>3.What is tag tt tag in html</h1>
+    <input type="radio" id="c" name="answer2"><label>It renders fonts as teletype text font style  </label><br>
+    <input type="radio"  name="answer2"><label>It renders fonts as truetype text font style  </label><br>
+    <input type="radio"  name="answer2"> <label>It renders fonts as truncate text font style  </label><br>
+    <input type="radio"  name="answer2"><label>None of these  </label><br>
+    </div>
+        <div id="four">
+    <h1>4.How many heading tags are supported by HTML?</h1>
+    <input type="radio" id="d"  name="answer3"><label>6  </label> <br>
+    <input type="radio"   name="answer3"><label>2  </label><br>
+    <input type="radio"   name="answer3"><label>5  </label><br>
+    <input type="radio"  name="answer3"><label>3  </label> <br>
+    </div>
+        <div id="five">
+    <h1>5.HTML supports</h1>
+    <input type="radio" name="answer4"><label> ordered list  </label><br>
+    <input type="radio" name="answer4"><label> unordered list </label> <br>
+    <input type="radio" name="answer4"><label> Does not support those types </label> <br>
+    <input type="radio"  id="e" name="answer4"><label> both type lists  </label><br>
+    </div>
+        <div id="six">
+    <h1>6.HTML is derived from</h1>
+    <input type="radio" name="answer5"><label>  URL  </label><br>
+    <input type="radio" id="f" name="answer5"><label> SGML  </label><br>
+    <input type="radio" name="answer5"><label> TCP/IP  </label><br>
+    <input type="radio" name="answer5"> <label> None of the above  </label><br>
+    </div>
+        <div id="seven">
+    <h1>7.What is the first tag in html document?</h1>
+    <input type="radio" id="g" name="answer6"> <label> html  </label><br>
+    <input type="radio"  name="answer6"> <label> head  </label><br>
+    <input type="radio" name="answer6"> <label> main  </label><br>
+    <input type="radio" name="answer6"> <label> /html  </label><br>
+    </div>
+        <div id="eight">
+    <h1>8.Which html tag inserts a line horizontally in a page?</h1>
+    <input type="radio" name="answer7"><label>  br   </label><br>
+    <input type="radio" name="answer7"><label>  li   </label><br>
+    <input type="radio" id="h" name="answer7"> <label> hr  </label><br>
+    <input type="radio" name="answer7"><label>  ul  </label><br>
+    </div> 
+        <div id="nine">
+    <h1>9.Which attribute is used with <td> tag to merge two cells horizontally?</h1>
+    <input type="radio" id="i" name="answer8"><label> Colspan = 2   </label> <br>  
+    <input type="radio"name="answer8"><label> Rowspan = 2  </label><br>
+    <input type="radio"name="answer8"><label> Mergerows  </label><br>
+    <input type="radio"name="answer8"><label> mergecols  </label><br>
+    </div>
+       <div id="ten">
+    <h1>10.Which tag creates a checkbox for a form in html?</h1>
+    <input type="radio" name="answer9"><label>  check box      </label><br> 
+    <input type="radio" name="answer9"><label> input check box  </label><br>
+    <input type="radio" name="answer9"><label> input = check box  </label><br>
+    <input type="radio" id="j" name="answer9"><label> input type = “check box”  </label> <br>
+    </div>
+ </form>
+
+    <button onclick="work()">submit</button>
+    </div>
+
+
+    <div id="display" style="display:none;">
+    <div class="outer-border" >
+<div class="inner-dotted-border">
+       <span class="certification">Certificate of Completion</span>
+       <br><br>
+       <span class="certify"><i>This is to certify that</i></span>
+       <br><br>
+       <span class="name" id="certifyName"><b></b></span><br/><br/>
+       
+       <span class="certify"><i>has successfully completed the certification</i></span> <br/><br/>
+       <span class="fs-30" style=" color:#663ab7 ;">HTML Developer</span> <br/><br/>
+       
+    <span style=" color:black; font-family:Arial, Helvetica, sans-serif " class="fs-20">with score of </span> <br/><br/>
+    <h1 style="color: #0056b3" id="score"></h1><br>
+    <span class="certify" style="color: black;"><i>dated</i></span><br><br><br>
+      
+      <span class="fs-20" id="dateDisplay" style="color:black"></span>
+
+</div>
+</div>
+
+</div>
+
+
+<button id="vj" style="display:none" onclick="want()">print</button>
+    
+
+     
+    
+
+    </body>
+</html>
